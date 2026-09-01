@@ -9,7 +9,8 @@
     "lint": "node --check packages/connectors/src/google-maps/parser/jspb.mjs",
     "maps:demo": "node apps/worker/src/demo-google-maps-pipeline.mjs",
     "maps:live": "node apps/worker/src/run-google-maps-live.mjs",
-    "campaign:live": "node apps/worker/src/run-campaign.mjs"
+    "campaign:live": "node apps/worker/src/run-campaign.mjs",
+    "postinstall": "npx playwright install chromium"
   },
   "engines": {
     "node": ">=20"
