@@ -9,16 +9,13 @@
     "lint": "node --check packages/connectors/src/google-maps/parser/jspb.mjs",
     "maps:demo": "node apps/worker/src/demo-google-maps-pipeline.mjs",
     "maps:live": "node apps/worker/src/run-google-maps-live.mjs",
-    "campaign:live": "node apps/worker/src/run-campaign.mjs",
-    "postinstall": "npx playwright install chromium"
+    "campaign:live": "node apps/worker/src/run-campaign.mjs"
   },
   "engines": {
     "node": ">=20"
   },
-  "optionalDependencies": {
-    "playwright": "latest"
-  },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "playwright": "latest"
   }
 }
