@@ -1,0 +1,3144 @@
+[
+  {
+    "lead_id": "ChIJtVwOHPsXrjsRctNAh26xXpc",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "EVA Esthetic & Implant Dental Centre-Nagawara,Bangalore,India | Implantologist/Full mouth implant specialist |",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 95389 84780",
+    "website": "http://www.evaestheticandimplantdental.com/",
+    "website_domain": "evaestheticandimplantdental.com",
+    "email": null,
+    "address": "Image diagnostics,#1073,2nd floor, Nagawara signal, HBR Layout 5th Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.0399409,
+    "longitude": 77.6248438,
+    "rating": 4.9,
+    "review_count": 989,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      },
+      {
+        "day_name": "Thursday",
+        "day_index": 4,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      },
+      {
+        "day_name": "Friday",
+        "day_index": 5,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      },
+      {
+        "day_name": "Saturday",
+        "day_index": 6,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      },
+      {
+        "day_name": "Sunday",
+        "day_index": 7,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      },
+      {
+        "day_name": "Monday",
+        "day_index": 1,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      },
+      {
+        "day_name": "Tuesday",
+        "day_index": 2,
+        "periods": [
+          {
+            "display": "Open 24 hours",
+            "structured": [
+              [],
+              []
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJtVwOHPsXrjsRctNAh26xXpc",
+    "google_cid": "0x3bae17fb1c0e5cb5:0x975eb16e8740d372",
+    "knowledge_graph_id": "/g/11kp3bn7kp",
+    "owner_information": {
+      "owner_name": "EVA Esthetic & Implant Dental Centre-Nagawara,Bangalore,India | Implantologist/Full mouth implant specialist | (Owner)",
+      "owner_id": "110238428535218330090",
+      "owner_photo_url": "https://lh4.googleusercontent.com/-utQX_UItzBo/AAAAAAAAAAI/AAAAAAAAAAA/Z7m6K1mKPww/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [
+      {
+        "evidence_id": "d4a68c4d-028c-4bfe-b566-5b68d84cf800",
+        "claim": "Company has high public customer/review volume",
+        "evidence": "Google Maps listing shows 989 reviews.",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "confidence": 0.82,
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "EVA Esthetic & Implant Dental Centre-Nagawara,Bangalore,India | Implantologist/Full mouth implant specialist |",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 95389 84780",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "http://www.evaestheticandimplantdental.com/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "review_count",
+        "value": 989,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Image diagnostics,#1073,2nd floor, Nagawara signal, HBR Layout 5th Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae17fb1c0e5cb5:0x975eb16e8740d372",
+      "title": "EVA Esthetic & Implant Dental Centre-Nagawara,Bangalore,India | Implantologist/Full mouth implant specialist |",
+      "placeId": "ChIJtVwOHPsXrjsRctNAh26xXpc",
+      "knowledgeGraphId": "/g/11kp3bn7kp",
+      "latitude": 13.0399409,
+      "longitude": 77.6248438,
+      "addressFormatted": "Image diagnostics,#1073,2nd floor, Nagawara signal, HBR Layout 5th Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043",
+      "addressFull": "EVA Esthetic & Implant Dental Centre-Nagawara,Bangalore,India | Implantologist/Full mouth implant specialist |, Image diagnostics,#1073,2nd floor, Nagawara signal, HBR Layout 5th Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043",
+      "addressLine1": "Image diagnostics,#1073,2nd floor",
+      "addressLine2": "Nagawara signal",
+      "street": "Image diagnostics,#1073,2nd floor, Nagawara signal",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09538984780",
+        "display": "095389 84780",
+        "e164": "+91 95389 84780",
+        "tel": "tel:09538984780"
+      },
+      "website": "http://www.evaestheticandimplantdental.com/",
+      "websiteDomain": "evaestheticandimplantdental.com",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Cosmetic dentist",
+        "Dental implants periodontist",
+        "Dentist",
+        "Emergency dental service",
+        "Endodontist",
+        "Oral surgeon",
+        "Orthodontist",
+        "Periodontist",
+        "Prosthodontist"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": [
+        {
+          "code": "dental_clinic",
+          "display": null
+        },
+        {
+          "code": "cosmetic_dentist",
+          "display": null
+        },
+        {
+          "code": "dental_implants_periodontist",
+          "display": null
+        },
+        {
+          "code": "dentist",
+          "display": null
+        },
+        {
+          "code": "emergency_dental_service",
+          "display": null
+        },
+        {
+          "code": "endodontist",
+          "display": null
+        },
+        {
+          "code": "oral_surgeon",
+          "display": null
+        },
+        {
+          "code": "orthodontist",
+          "display": null
+        },
+        {
+          "code": "periodontist",
+          "display": null
+        },
+        {
+          "code": "prosthodontist",
+          "display": null
+        }
+      ],
+      "ratingDecimal": 4.9,
+      "reviewsCount": 989,
+      "reviewsText": "989 reviews",
+      "priceRangeText": null,
+      "openStatusShort": "Open",
+      "openStatusFull": "Open 24 hours",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday",
+          "day_index": 4,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "day_name": "Friday",
+          "day_index": 5,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday",
+          "day_index": 6,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday",
+          "day_index": 7,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "day_name": "Monday",
+          "day_index": 1,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday",
+          "day_index": 2,
+          "periods": [
+            {
+              "display": "Open 24 hours",
+              "structured": [
+                [],
+                []
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "EVA Esthetic & Implant Dental Centre-Nagawara,Bangalore,India | Implantologist/Full mouth implant specialist | (Owner)",
+        "owner_id": "110238428535218330090",
+        "owner_photo_url": "https://lh4.googleusercontent.com/-utQX_UItzBo/AAAAAAAAAAI/AAAAAAAAAAA/Z7m6K1mKPww/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkJUS_eqLv7avh-bvpnlBPBuDeko50_i0enp2p2sK7qZFUgUoEeC9i-t9fP0-AqEU0cm5WUaYNKFUG4Dgn1ZAq-BcqT5u-xxWzAiELzYv_6zMtTvDTfJZaZ946aLjEW4q4ZfpnchQ=w122-h92-k-no"
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Google Maps listing shows 989 reviews."
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 45,
+      "icp_score": 45,
+      "intent_score": 55,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has explicit supporting evidence",
+        "Lead has at least one contact path",
+        "High public review volume suggests active customer demand",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJIWjNrykRrjsRXLKE4AVkZzg",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Dr. Shetty's Dental",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 80 4155 8558",
+    "website": "http://www.shettysdental.com/",
+    "website_domain": "shettysdental.com",
+    "email": null,
+    "address": "Dodda Banaswadi Main Rd, above reliance digital rammurthynagar, Vijaya Bank Colony, Banaswadi, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.013487399999999,
+    "longitude": 77.66193609999999,
+    "rating": 4.7,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–9 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                21
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJIWjNrykRrjsRXLKE4AVkZzg",
+    "google_cid": "0x3bae1129afcd6821:0x38676405e084b25c",
+    "knowledge_graph_id": "/g/11b5qy1kcw",
+    "owner_information": {
+      "owner_name": "Dr. Shetty's Dental (Owner)",
+      "owner_id": "116653057554344892381",
+      "owner_photo_url": "https://lh4.googleusercontent.com/-2yyWfH5nnjY/AAAAAAAAAAI/AAAAAAAAAAA/7tiPzciEDM8/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "DR. SHETTY'S DENTAL",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.454Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 98803 00793",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.454Z"
+      },
+      {
+        "field": "website",
+        "value": "http://www.shettysdental.com/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.454Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.8,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.454Z"
+      },
+      {
+        "field": "address",
+        "value": "Kalkere-Agara Main Rd, Dodda Kempaiah Layout, Kalkere, Bengaluru, Karnataka 560016",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.454Z"
+      },
+      {
+        "field": "business_name",
+        "value": "Dr. Shetty's Dental",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 80 4155 8558",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "http://www.shettysdental.com/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.7,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Dodda Banaswadi Main Rd, above reliance digital rammurthynagar, Vijaya Bank Colony, Banaswadi, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae1129afcd6821:0x38676405e084b25c",
+      "title": "Dr. Shetty's Dental",
+      "placeId": "ChIJIWjNrykRrjsRXLKE4AVkZzg",
+      "knowledgeGraphId": "/g/11b5qy1kcw",
+      "latitude": 13.013487399999999,
+      "longitude": 77.66193609999999,
+      "addressFormatted": "Dodda Banaswadi Main Rd, above reliance digital rammurthynagar, Vijaya Bank Colony, Banaswadi, Bengaluru, Karnataka 560043",
+      "addressFull": "Dr. Shetty's Dental, Dodda Banaswadi Main Rd, above reliance digital rammurthynagar, Vijaya Bank Colony, Banaswadi, Bengaluru, Karnataka 560043",
+      "addressLine1": "Dodda Banaswadi Main Rd",
+      "addressLine2": "above reliance digital rammurthynagar",
+      "street": "Dodda Banaswadi Main Rd, above reliance digital rammurthynagar",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "08041558558",
+        "display": "080 4155 8558",
+        "e164": "+91 80 4155 8558",
+        "tel": "tel:08041558558"
+      },
+      "website": "http://www.shettysdental.com/",
+      "websiteDomain": "shettysdental.com",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.7,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–9 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Dr. Shetty's Dental (Owner)",
+        "owner_id": "116653057554344892381",
+        "owner_photo_url": "https://lh4.googleusercontent.com/-2yyWfH5nnjY/AAAAAAAAAAI/AAAAAAAAAAA/7tiPzciEDM8/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJJylIeIkXrjsRrgZa2RM8GUc",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "AR DENTAL CARE AND IMPLANT CENTER",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 81235 69159",
+    "website": "https://drashar.drxpro.in/",
+    "website_domain": "drashar.drxpro.in",
+    "email": null,
+    "address": "Ground floor, Horamavu Agara, 76/4 sri Manjunatha Arcade, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.0373691,
+    "longitude": 77.65422319999999,
+    "rating": 5,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "9 am–5 pm",
+            "structured": [
+              [
+                9
+              ],
+              [
+                17
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJJylIeIkXrjsRrgZa2RM8GUc",
+    "google_cid": "0x3bae178978482927:0x47193c13d95a06ae",
+    "knowledge_graph_id": "/g/11s47c6pcp",
+    "owner_information": {
+      "owner_name": "AR DENTAL CARE AND IMPLANT CENTER (Owner)",
+      "owner_id": "114271897420680513728",
+      "owner_photo_url": "https://lh5.googleusercontent.com/-edX2Sy_Fgpc/AAAAAAAAAAI/AAAAAAAAAAA/wPHG6iaKSu0/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "AR DENTAL CARE AND IMPLANT CENTER",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 81235 69159",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://drashar.drxpro.in/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 5,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Ground floor, Horamavu Agara, 76/4 sri Manjunatha Arcade, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae178978482927:0x47193c13d95a06ae",
+      "title": "AR DENTAL CARE AND IMPLANT CENTER",
+      "placeId": "ChIJJylIeIkXrjsRrgZa2RM8GUc",
+      "knowledgeGraphId": "/g/11s47c6pcp",
+      "latitude": 13.0373691,
+      "longitude": 77.65422319999999,
+      "addressFormatted": "Ground floor, Horamavu Agara, 76/4 sri Manjunatha Arcade, Bengaluru, Karnataka 560113",
+      "addressFull": "Ground floor, AR DENTAL CARE AND IMPLANT CENTER, Horamavu Agara, 76/4 sri Manjunatha Arcade, Bengaluru, Karnataka 560113",
+      "addressLine1": "Ground floor",
+      "addressLine2": "Horamavu Agara",
+      "street": "Ground floor, Horamavu Agara, 76/4 sri Manjunatha Arcade",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "08123569159",
+        "display": "081235 69159",
+        "e164": "+91 81235 69159",
+        "tel": "tel:08123569159"
+      },
+      "website": "https://drashar.drxpro.in/",
+      "websiteDomain": "drashar.drxpro.in",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dentist"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 5,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 9 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "9 am–5 pm",
+              "structured": [
+                [
+                  9
+                ],
+                [
+                  17
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "AR DENTAL CARE AND IMPLANT CENTER (Owner)",
+        "owner_id": "114271897420680513728",
+        "owner_photo_url": "https://lh5.googleusercontent.com/-edX2Sy_Fgpc/AAAAAAAAAAI/AAAAAAAAAAA/wPHG6iaKSu0/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJR3lTejcXrjsRxS5Eoh5e13I",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Apollo Dental Kalyan Nagar | Best Dental Clinic in Kalyan Nagar | Root Canal | Dental Implants| Invisalign",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 90710 55533",
+    "website": "https://apollodentalkalyannagar.com/",
+    "website_domain": "apollodentalkalyannagar.com",
+    "email": null,
+    "address": "4C-501, 3rd Floor, Above SMOOR, 4th Cross, 5th Main Rd, HRBR Layout 2nd Block, Kalyan Nagar, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.021871299999999,
+    "longitude": 77.6402165,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–9 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                21
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJR3lTejcXrjsRxS5Eoh5e13I",
+    "google_cid": "0x3bae17377a537947:0x72d75e1ea2442ec5",
+    "knowledge_graph_id": "/g/11zjl1hr9w",
+    "owner_information": {
+      "owner_name": "Apollo Dental Kalyan Nagar | Best Dental Clinic in Kalyan Nagar | Root Canal | Dental Implants| Invisalign (Owner)",
+      "owner_id": "107971388938946374738",
+      "owner_photo_url": "https://lh3.googleusercontent.com/-PHVT69wuEtY/AAAAAAAAAAI/AAAAAAAAAAA/aXSo5ddkKRY/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Apollo Dental Kalyan Nagar | Best Dental Clinic in Kalyan Nagar | Root Canal | Dental Implants| Invisalign",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 90710 55533",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://apollodentalkalyannagar.com/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "4C-501, 3rd Floor, Above SMOOR, 4th Cross, 5th Main Rd, HRBR Layout 2nd Block, Kalyan Nagar, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae17377a537947:0x72d75e1ea2442ec5",
+      "title": "Apollo Dental Kalyan Nagar | Best Dental Clinic in Kalyan Nagar | Root Canal | Dental Implants| Invisalign",
+      "placeId": "ChIJR3lTejcXrjsRxS5Eoh5e13I",
+      "knowledgeGraphId": "/g/11zjl1hr9w",
+      "latitude": 13.021871299999999,
+      "longitude": 77.6402165,
+      "addressFormatted": "4C-501, 3rd Floor, Above SMOOR, 4th Cross, 5th Main Rd, HRBR Layout 2nd Block, Kalyan Nagar, Bengaluru, Karnataka 560043",
+      "addressFull": "Apollo Dental Kalyan Nagar | Best Dental Clinic in Kalyan Nagar | Root Canal | Dental Implants| Invisalign, 4C-501, 3rd Floor, Above SMOOR, 4th Cross, 5th Main Rd, HRBR Layout 2nd Block, Kalyan Nagar, Bengaluru, Karnataka 560043",
+      "addressLine1": "4C-501, 3rd Floor, Above SMOOR, 4th Cross",
+      "addressLine2": "5th Main Rd",
+      "street": "4C-501, 3rd Floor, Above SMOOR, 4th Cross, 5th Main Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09071055533",
+        "display": "090710 55533",
+        "e164": "+91 90710 55533",
+        "tel": "tel:09071055533"
+      },
+      "website": "https://apollodentalkalyannagar.com/",
+      "websiteDomain": "apollodentalkalyannagar.com",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dental hygienist",
+        "Teeth whitening service"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–9 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Apollo Dental Kalyan Nagar | Best Dental Clinic in Kalyan Nagar | Root Canal | Dental Implants| Invisalign (Owner)",
+        "owner_id": "107971388938946374738",
+        "owner_photo_url": "https://lh3.googleusercontent.com/-PHVT69wuEtY/AAAAAAAAAAI/AAAAAAAAAAA/aXSo5ddkKRY/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJpUO-X3kXrjsRP9oClwVvEko",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "The Dental Axis",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 63626 61757",
+    "website": "https://click4appointment.com/clinic-details/thedentalaxis-3418",
+    "website_domain": "click4appointment.com",
+    "email": null,
+    "address": "Agara main road, 10th St, 1st Block, Babusapalya, Horamavu, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.0307424,
+    "longitude": 77.6533345,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–8:30 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                20,
+                30
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJpUO-X3kXrjsRP9oClwVvEko",
+    "google_cid": "0x3bae17795fbe43a5:0x4a126f059702da3f",
+    "knowledge_graph_id": "/g/11l_b7hz73",
+    "owner_information": {
+      "owner_name": "The Dental Axis (Owner)",
+      "owner_id": "110834911177337068065",
+      "owner_photo_url": "https://lh4.googleusercontent.com/-Ls9KmsXlsQw/AAAAAAAAAAI/AAAAAAAAAAA/ZL6HLxgERVE/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Pearl's dentspa and implant centre",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 78993 65333",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://click4appointment.com/clinic-details/pearlsdentspaandimplantcentre-3265",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 5,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "1st floor, kamalamma complex, No 349, Horamavu Agara Main Rd, above jeevan Pharma and general stores, Lakeview Residency, Banjara Residency, Hennur Gardens, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "business_name",
+        "value": "The Dental Axis",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 63626 61757",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://click4appointment.com/clinic-details/thedentalaxis-3418",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Agara main road, 10th St, 1st Block, Babusapalya, Horamavu, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae17795fbe43a5:0x4a126f059702da3f",
+      "title": "The Dental Axis",
+      "placeId": "ChIJpUO-X3kXrjsRP9oClwVvEko",
+      "knowledgeGraphId": "/g/11l_b7hz73",
+      "latitude": 13.0307424,
+      "longitude": 77.6533345,
+      "addressFormatted": "Agara main road, 10th St, 1st Block, Babusapalya, Horamavu, Bengaluru, Karnataka 560113",
+      "addressFull": "The Dental Axis, Agara main road, 10th St, 1st Block, Babusapalya, Horamavu, Bengaluru, Karnataka 560113",
+      "addressLine1": "Agara main road, 10th St",
+      "addressLine2": "1st Block, Babusapalya, Horamavu",
+      "street": "Agara main road, 10th St",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "06362661757",
+        "display": "063626 61757",
+        "e164": "+91 63626 61757",
+        "tel": "tel:06362661757"
+      },
+      "website": "https://click4appointment.com/clinic-details/thedentalaxis-3418",
+      "websiteDomain": "click4appointment.com",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dentist"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–8:30 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  20,
+                  30
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "The Dental Axis (Owner)",
+        "owner_id": "110834911177337068065",
+        "owner_photo_url": "https://lh4.googleusercontent.com/-Ls9KmsXlsQw/AAAAAAAAAAI/AAAAAAAAAAA/ZL6HLxgERVE/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJHa8yAIsRrjsRokobgR0zcdc",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Gradient dental care",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 89714 47228",
+    "website": null,
+    "website_domain": null,
+    "email": null,
+    "address": "161/11, kalkere Agra main road, opp. to all-day hypermarket, Banjara Layout, Horamavu Agara, Horamavu, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.038329099999999,
+    "longitude": 77.6641904,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–10 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                22
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJHa8yAIsRrjsRokobgR0zcdc",
+    "google_cid": "0x3bae118b0032af1d:0xd771331d811b4aa2",
+    "knowledge_graph_id": "/g/11yv71r4j5",
+    "owner_information": {
+      "owner_name": "Gradient dental care (Owner)",
+      "owner_id": "115944196689977227442",
+      "owner_photo_url": "https://lh5.googleusercontent.com/-poVCTxr-8WQ/AAAAAAAAAAI/AAAAAAAAAAA/VrLC4Bf5aDU/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Gradient dental care",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 89714 47228",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "161/11, kalkere Agra main road, opp. to all-day hypermarket, Banjara Layout, Horamavu Agara, Horamavu, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae118b0032af1d:0xd771331d811b4aa2",
+      "title": "Gradient dental care",
+      "placeId": "ChIJHa8yAIsRrjsRokobgR0zcdc",
+      "knowledgeGraphId": "/g/11yv71r4j5",
+      "latitude": 13.038329099999999,
+      "longitude": 77.6641904,
+      "addressFormatted": "161/11, kalkere Agra main road, opp. to all-day hypermarket, Banjara Layout, Horamavu Agara, Horamavu, Bengaluru, Karnataka 560113",
+      "addressFull": "Gradient dental care, 161/11, kalkere Agra main road, opp. to all-day hypermarket, Banjara Layout, Horamavu Agara, Horamavu, Bengaluru, Karnataka 560113",
+      "addressLine1": "161/11, kalkere Agra main road",
+      "addressLine2": "opp. to all-day hypermarket",
+      "street": "161/11, kalkere Agra main road, opp. to all-day hypermarket",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "08971447228",
+        "display": "089714 47228",
+        "e164": "+91 89714 47228",
+        "tel": "tel:08971447228"
+      },
+      "website": null,
+      "websiteDomain": null,
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–10 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  22
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Gradient dental care (Owner)",
+        "owner_id": "115944196689977227442",
+        "owner_photo_url": "https://lh5.googleusercontent.com/-poVCTxr-8WQ/AAAAAAAAAAI/AAAAAAAAAAA/VrLC4Bf5aDU/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Business has no website listed on public profiles"
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJxVqlXQoRrjsR0kGQgN_ppF0",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Smile design dental care-Dental Clinic in Horamavu Bangalore | Best Dentist in Horamavu",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 80887 10098",
+    "website": "http://www.smiledesigndental.in/",
+    "website_domain": "smiledesigndental.in",
+    "email": null,
+    "address": "3rd cro, 16, Horamavu Agara Rd, Horamavu, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.030998199999999,
+    "longitude": 77.6613872,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "9:30 am–1:30 pm",
+            "structured": [
+              [
+                9,
+                30
+              ],
+              [
+                13,
+                30
+              ]
+            ]
+          },
+          {
+            "display": "5–8:30 pm",
+            "structured": [
+              [
+                17
+              ],
+              [
+                20,
+                30
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJxVqlXQoRrjsR0kGQgN_ppF0",
+    "google_cid": "0x3bae110a5da55ac5:0x5da4e9df809041d2",
+    "knowledge_graph_id": "/g/11spl7jbm5",
+    "owner_information": {
+      "owner_name": "Smile design dental care-Dental Clinic in Horamavu Bangalore | Best Dentist in Horamavu (Owner)",
+      "owner_id": "105427320557578228540",
+      "owner_photo_url": "https://lh5.googleusercontent.com/-Ga8TM3qBvS4/AAAAAAAAAAI/AAAAAAAAAAA/VIdBSXU7FgU/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Smile design dental care-Dental Clinic in Horamavu Bangalore | Best Dentist in Horamavu",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 80887 10098",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "http://www.smiledesigndental.in/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "3rd cro, 16, Horamavu Agara Rd, Horamavu, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae110a5da55ac5:0x5da4e9df809041d2",
+      "title": "Smile design dental care-Dental Clinic in Horamavu Bangalore | Best Dentist in Horamavu",
+      "placeId": "ChIJxVqlXQoRrjsR0kGQgN_ppF0",
+      "knowledgeGraphId": "/g/11spl7jbm5",
+      "latitude": 13.030998199999999,
+      "longitude": 77.6613872,
+      "addressFormatted": "3rd cro, 16, Horamavu Agara Rd, Horamavu, Bengaluru, Karnataka 560113",
+      "addressFull": "3rd cro, Smile design dental care-Dental Clinic in Horamavu Bangalore | Best Dentist in Horamavu, 16, Horamavu Agara Rd, Horamavu, Bengaluru, Karnataka 560113",
+      "addressLine1": "3rd cro",
+      "addressLine2": "16, Horamavu Agara Rd",
+      "street": "3rd cro, 16, Horamavu Agara Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "08088710098",
+        "display": "080887 10098",
+        "e164": "+91 80887 10098",
+        "tel": "tel:08088710098"
+      },
+      "website": "http://www.smiledesigndental.in/",
+      "websiteDomain": "smiledesigndental.in",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dentist"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 9:30 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "9:30 am–1:30 pm",
+              "structured": [
+                [
+                  9,
+                  30
+                ],
+                [
+                  13,
+                  30
+                ]
+              ]
+            },
+            {
+              "display": "5–8:30 pm",
+              "structured": [
+                [
+                  17
+                ],
+                [
+                  20,
+                  30
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Smile design dental care-Dental Clinic in Horamavu Bangalore | Best Dentist in Horamavu (Owner)",
+        "owner_id": "105427320557578228540",
+        "owner_photo_url": "https://lh5.googleusercontent.com/-Ga8TM3qBvS4/AAAAAAAAAAI/AAAAAAAAAAA/VIdBSXU7FgU/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJcVgSiNMQrjsRKDqTqvg2Pjc",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Family Dental Care & Implant Center",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 98453 55113",
+    "website": "https://myfamilydentalcare.in/",
+    "website_domain": "myfamilydentalcare.in",
+    "email": null,
+    "address": "Sl. no. 417, Family Dental Care, 2nd Floor, Site no. 32, No, 176/1, Horamavu Main Rd, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.0215182,
+    "longitude": 77.6575953,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–9 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                21
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJcVgSiNMQrjsRKDqTqvg2Pjc",
+    "google_cid": "0x3bae10d388125871:0x373e36f8aa933a28",
+    "knowledge_graph_id": "/g/1tgllbhf",
+    "owner_information": {
+      "owner_name": "Family Dental Care & Implant Center (Owner)",
+      "owner_id": "114221888226053992473",
+      "owner_photo_url": "https://lh5.googleusercontent.com/-ZbXxxa9P-Ek/AAAAAAAAAAI/AAAAAAAAAAA/RgGScBgU_Qc/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Family Dental Care & Implant Center",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 98453 55113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://myfamilydentalcare.in/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Sl. no. 417, Family Dental Care, 2nd Floor, Site no. 32, No, 176/1, Horamavu Main Rd, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae10d388125871:0x373e36f8aa933a28",
+      "title": "Family Dental Care & Implant Center",
+      "placeId": "ChIJcVgSiNMQrjsRKDqTqvg2Pjc",
+      "knowledgeGraphId": "/g/1tgllbhf",
+      "latitude": 13.0215182,
+      "longitude": 77.6575953,
+      "addressFormatted": "Sl. no. 417, Family Dental Care, 2nd Floor, Site no. 32, No, 176/1, Horamavu Main Rd, Bengaluru, Karnataka 560113",
+      "addressFull": "Sl. no. 417, Family Dental Care & Implant Center, Family Dental Care, 2nd Floor, Site no. 32, No, 176/1, Horamavu Main Rd, Bengaluru, Karnataka 560113",
+      "addressLine1": "Sl. no. 417",
+      "addressLine2": "Family Dental Care, 2nd Floor, Site no. 32, No",
+      "street": "Sl. no. 417, Family Dental Care, 2nd Floor, Site no. 32, No, 176/1, Horamavu Main Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09845355113",
+        "display": "098453 55113",
+        "e164": "+91 98453 55113",
+        "tel": "tel:09845355113"
+      },
+      "website": "https://myfamilydentalcare.in/",
+      "websiteDomain": "myfamilydentalcare.in",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dental implants provider",
+        "Dentist",
+        "Oral surgeon",
+        "Pediatric dentist"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–9 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Family Dental Care & Implant Center (Owner)",
+        "owner_id": "114221888226053992473",
+        "owner_photo_url": "https://lh5.googleusercontent.com/-ZbXxxa9P-Ek/AAAAAAAAAAI/AAAAAAAAAAA/RgGScBgU_Qc/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJLatfiFwRrjsR7sWJmxrrM44",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "VK Dental Clinic",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 72596 39909",
+    "website": null,
+    "website_domain": null,
+    "email": null,
+    "address": "Ground Floor, Junjuppa Complex, Survey #328, K Channasandra Main Rd, near HP Petrol Pump, Pete Krishnappa layout, Kalkere, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.0370368,
+    "longitude": 77.6750879,
+    "rating": 5,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–7 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                19
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJLatfiFwRrjsR7sWJmxrrM44",
+    "google_cid": "0x3bae115c885fab2d:0x8e33eb1a9b89c5ee",
+    "knowledge_graph_id": "/g/11yzd3d89v",
+    "owner_information": {
+      "owner_name": "VK Dental Clinic (Owner)",
+      "owner_id": "106473088632552275671",
+      "owner_photo_url": "https://lh3.googleusercontent.com/-2HWW-I35uXk/AAAAAAAAAAI/AAAAAAAAAAA/vz8PlF9rbQY/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "VK Dental Clinic",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 72596 39909",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 5,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Ground Floor, Junjuppa Complex, Survey #328, K Channasandra Main Rd, near HP Petrol Pump, Pete Krishnappa layout, Kalkere, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae115c885fab2d:0x8e33eb1a9b89c5ee",
+      "title": "VK Dental Clinic",
+      "placeId": "ChIJLatfiFwRrjsR7sWJmxrrM44",
+      "knowledgeGraphId": "/g/11yzd3d89v",
+      "latitude": 13.0370368,
+      "longitude": 77.6750879,
+      "addressFormatted": "Ground Floor, Junjuppa Complex, Survey #328, K Channasandra Main Rd, near HP Petrol Pump, Pete Krishnappa layout, Kalkere, Bengaluru, Karnataka 560043",
+      "addressFull": "Ground Floor, VK Dental Clinic, Junjuppa Complex, Survey #328, K Channasandra Main Rd, near HP Petrol Pump, Pete Krishnappa layout, Kalkere, Bengaluru, Karnataka 560043",
+      "addressLine1": "Ground Floor",
+      "addressLine2": "Junjuppa Complex",
+      "street": "Ground Floor, Junjuppa Complex, Survey #328, K Channasandra Main Rd, near HP Petrol Pump",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "07259639909",
+        "display": "072596 39909",
+        "e164": "+91 72596 39909",
+        "tel": "tel:07259639909"
+      },
+      "website": null,
+      "websiteDomain": null,
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 5,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–7 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  19
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "VK Dental Clinic (Owner)",
+        "owner_id": "106473088632552275671",
+        "owner_photo_url": "https://lh3.googleusercontent.com/-2HWW-I35uXk/AAAAAAAAAAI/AAAAAAAAAAA/vz8PlF9rbQY/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Business has no website listed on public profiles"
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJ02l_nzIXrjsR1WpkpNSj34k",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Dental Architect ..Multispeciality Dental clinic( where treatment meets perfection)",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 90355 05006",
+    "website": null,
+    "website_domain": null,
+    "email": null,
+    "address": "No 14, 1st floor, Horamavu Agara Main Rd, above Ganga Kaveri Medicals, near Maruthi Vidyalaya, DVR Layout, Babusapalya, Mallappa Layout, Hennur Gardens, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.0275859,
+    "longitude": 77.6524167,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–2:30 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                14,
+                30
+              ]
+            ]
+          },
+          {
+            "display": "5–9 pm",
+            "structured": [
+              [
+                17
+              ],
+              [
+                21
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJ02l_nzIXrjsR1WpkpNSj34k",
+    "google_cid": "0x3bae17329f7f69d3:0x89dfa3d4a4646ad5",
+    "knowledge_graph_id": "/g/11c2pw1gl_",
+    "owner_information": {
+      "owner_name": "Dental Architect ..Multispeciality Dental clinic( where treatment meets perfection) (Owner)",
+      "owner_id": "100066635423428647801",
+      "owner_photo_url": "https://lh4.googleusercontent.com/-TXzLG2FqCAg/AAAAAAAAAAI/AAAAAAAAAAA/XjTXM5FDx30/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Dental Architect ..Multispeciality Dental clinic( where treatment meets perfection)",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 90355 05006",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "No 14, 1st floor, Horamavu Agara Main Rd, above Ganga Kaveri Medicals, near Maruthi Vidyalaya, DVR Layout, Babusapalya, Mallappa Layout, Hennur Gardens, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae17329f7f69d3:0x89dfa3d4a4646ad5",
+      "title": "Dental Architect ..Multispeciality Dental clinic( where treatment meets perfection)",
+      "placeId": "ChIJ02l_nzIXrjsR1WpkpNSj34k",
+      "knowledgeGraphId": "/g/11c2pw1gl_",
+      "latitude": 13.0275859,
+      "longitude": 77.6524167,
+      "addressFormatted": "No 14, 1st floor, Horamavu Agara Main Rd, above Ganga Kaveri Medicals, near Maruthi Vidyalaya, DVR Layout, Babusapalya, Mallappa Layout, Hennur Gardens, Bengaluru, Karnataka 560113",
+      "addressFull": "No 14, 1st floor, Dental Architect ..Multispeciality Dental clinic( where treatment meets perfection), Horamavu Agara Main Rd, above Ganga Kaveri Medicals, near Maruthi Vidyalaya, DVR Layout, Babusapalya, Mallappa Layout, Hennur Gardens, Bengaluru, Karnataka 560113",
+      "addressLine1": "No 14, 1st floor",
+      "addressLine2": "Horamavu Agara Main Rd",
+      "street": "No 14, 1st floor, Horamavu Agara Main Rd, above Ganga Kaveri Medicals, near Maruthi Vidyalaya",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09035505006",
+        "display": "090355 05006",
+        "e164": "+91 90355 05006",
+        "tel": "tel:09035505006"
+      },
+      "website": null,
+      "websiteDomain": null,
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–2:30 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  14,
+                  30
+                ]
+              ]
+            },
+            {
+              "display": "5–9 pm",
+              "structured": [
+                [
+                  17
+                ],
+                [
+                  21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Dental Architect ..Multispeciality Dental clinic( where treatment meets perfection) (Owner)",
+        "owner_id": "100066635423428647801",
+        "owner_photo_url": "https://lh4.googleusercontent.com/-TXzLG2FqCAg/AAAAAAAAAAI/AAAAAAAAAAA/XjTXM5FDx30/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Business has no website listed on public profiles"
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJQfadDHgZrjsRCtCS9q584to",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Bangalore Smiles Dental Care",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 97312 12098",
+    "website": null,
+    "website_domain": null,
+    "email": null,
+    "address": "No.59, 1st floor, 4th cross, 80ft road MCECHS Layout, Dr.Shivaram Karanth Nagar, Rachenahalli, RK Hegde Nagar, Bengaluru, Karnataka 560077",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560077",
+    "latitude": 13.068636,
+    "longitude": 77.6278164,
+    "rating": 5,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–8 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                20
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJQfadDHgZrjsRCtCS9q584to",
+    "google_cid": "0x3bae19780c9df641:0xdae27caef692d00a",
+    "knowledge_graph_id": "/g/11qh7gc8jy",
+    "owner_information": {
+      "owner_name": "Bangalore Smiles Dental Care (Owner)",
+      "owner_id": "106492119430245502593",
+      "owner_photo_url": "https://lh3.googleusercontent.com/-tGrGtpV2DAI/AAAAAAAAAAI/AAAAAAAAAAA/VPDqIOHZjNg/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Bangalore Smiles Dental Care",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 97312 12098",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 5,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "No.59, 1st floor, 4th cross, 80ft road MCECHS Layout, Dr.Shivaram Karanth Nagar, Rachenahalli, RK Hegde Nagar, Bengaluru, Karnataka 560077",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae19780c9df641:0xdae27caef692d00a",
+      "title": "Bangalore Smiles Dental Care",
+      "placeId": "ChIJQfadDHgZrjsRCtCS9q584to",
+      "knowledgeGraphId": "/g/11qh7gc8jy",
+      "latitude": 13.068636,
+      "longitude": 77.6278164,
+      "addressFormatted": "No.59, 1st floor, 4th cross, 80ft road MCECHS Layout, Dr.Shivaram Karanth Nagar, Rachenahalli, RK Hegde Nagar, Bengaluru, Karnataka 560077",
+      "addressFull": "Bangalore Smiles Dental Care, No.59, 1st floor, 4th cross, 80ft road MCECHS Layout, Dr.Shivaram Karanth Nagar, Rachenahalli, RK Hegde Nagar, Bengaluru, Karnataka 560077",
+      "addressLine1": "No.59, 1st floor, 4th cross, 80ft road MCECHS Layout, Dr.Shivaram Karanth Nagar",
+      "addressLine2": "Rachenahalli, RK Hegde Nagar",
+      "street": "No.59, 1st floor, 4th cross, 80ft road MCECHS Layout, Dr.Shivaram Karanth Nagar",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560077",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09731212098",
+        "display": "097312 12098",
+        "e164": "+91 97312 12098",
+        "tel": "tel:09731212098"
+      },
+      "website": null,
+      "websiteDomain": null,
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Cosmetic dentist",
+        "Dentist",
+        "Dental implants provider",
+        "Endodontist",
+        "Oral and maxillofacial surgeon",
+        "Orthodontist",
+        "Pediatric dentist",
+        "Prosthodontist",
+        "Teeth whitening service"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 5,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–8 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Bangalore Smiles Dental Care (Owner)",
+        "owner_id": "106492119430245502593",
+        "owner_photo_url": "https://lh3.googleusercontent.com/-tGrGtpV2DAI/AAAAAAAAAAI/AAAAAAAAAAA/VPDqIOHZjNg/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Business has no website listed on public profiles"
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJPxwvjMEQrjsR1qj-z5eNCXI",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "BHAGAT DENTAL CLINIC",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 90366 17321",
+    "website": null,
+    "website_domain": null,
+    "email": null,
+    "address": "1st floor, K M Madhu Building, Sy No 333, K Channasandra Main Rd, Kanaka Nagar, Kalkere, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.0350346,
+    "longitude": 77.6752739,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "9:30 am–9 pm",
+            "structured": [
+              [
+                9,
+                30
+              ],
+              [
+                21
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJPxwvjMEQrjsR1qj-z5eNCXI",
+    "google_cid": "0x3bae10c18c2f1c3f:0x72098d97cffea8d6",
+    "knowledge_graph_id": "/g/11c56rf85p",
+    "owner_information": {
+      "owner_name": "BHAGAT DENTAL CLINIC (Owner)",
+      "owner_id": "109971149382577234506",
+      "owner_photo_url": "https://lh6.googleusercontent.com/-HTvmb6giFQk/AAAAAAAAAAI/AAAAAAAAAAA/o2TOTlvsLNo/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "BHAGAT DENTAL CLINIC",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 90366 17321",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "1st floor, K M Madhu Building, Sy No 333, K Channasandra Main Rd, Kanaka Nagar, Kalkere, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae10c18c2f1c3f:0x72098d97cffea8d6",
+      "title": "BHAGAT DENTAL CLINIC",
+      "placeId": "ChIJPxwvjMEQrjsR1qj-z5eNCXI",
+      "knowledgeGraphId": "/g/11c56rf85p",
+      "latitude": 13.0350346,
+      "longitude": 77.6752739,
+      "addressFormatted": "1st floor, K M Madhu Building, Sy No 333, K Channasandra Main Rd, Kanaka Nagar, Kalkere, Bengaluru, Karnataka 560113",
+      "addressFull": "1st floor, BHAGAT DENTAL CLINIC, K M Madhu Building, Sy No 333, K Channasandra Main Rd, Kanaka Nagar, Kalkere, Bengaluru, Karnataka 560113",
+      "addressLine1": "1st floor",
+      "addressLine2": "K M Madhu Building",
+      "street": "1st floor, K M Madhu Building, Sy No 333, K Channasandra Main Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09036617321",
+        "display": "090366 17321",
+        "e164": "+91 90366 17321",
+        "tel": "tel:09036617321"
+      },
+      "website": null,
+      "websiteDomain": null,
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dental hygienist",
+        "Dental implants periodontist",
+        "Dental radiology",
+        "Dentist",
+        "Denture care center",
+        "Oral and maxillofacial surgeon"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 9:30 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "9:30 am–9 pm",
+              "structured": [
+                [
+                  9,
+                  30
+                ],
+                [
+                  21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "BHAGAT DENTAL CLINIC (Owner)",
+        "owner_id": "109971149382577234506",
+        "owner_photo_url": "https://lh6.googleusercontent.com/-HTvmb6giFQk/AAAAAAAAAAI/AAAAAAAAAAA/o2TOTlvsLNo/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Business has no website listed on public profiles"
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJgcd3hdMQrjsRZy9llpJJa80",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Sure Smile Dental Care",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 97409 09934",
+    "website": "https://suresmiledental.in/",
+    "website_domain": "suresmiledental.in",
+    "email": null,
+    "address": "43, 1st Main,1st cross, Ashirvad colony, Hormavu main road Opp easy bazaar supermarket,Kalyan Nagar, Post, Horamavu, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.021735699999999,
+    "longitude": 77.6572034,
+    "rating": 4.7,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–8 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                20
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJgcd3hdMQrjsRZy9llpJJa80",
+    "google_cid": "0x3bae10d38577c781:0xcd6b499296652f67",
+    "knowledge_graph_id": "/g/1pp2x5plh",
+    "owner_information": {
+      "owner_name": "Sure Smile Dental Care (Owner)",
+      "owner_id": "115965176119095012376",
+      "owner_photo_url": "https://lh4.googleusercontent.com/-lp20WeMpnfQ/AAAAAAAAAAI/AAAAAAAAAAA/j5Bs4NDecWM/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Sure Smile Dental Care",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 97409 09934",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://suresmiledental.in/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.7,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "43, 1st Main,1st cross, Ashirvad colony, Hormavu main road Opp easy bazaar supermarket,Kalyan Nagar, Post, Horamavu, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae10d38577c781:0xcd6b499296652f67",
+      "title": "Sure Smile Dental Care",
+      "placeId": "ChIJgcd3hdMQrjsRZy9llpJJa80",
+      "knowledgeGraphId": "/g/1pp2x5plh",
+      "latitude": 13.021735699999999,
+      "longitude": 77.6572034,
+      "addressFormatted": "43, 1st Main,1st cross, Ashirvad colony, Hormavu main road Opp easy bazaar supermarket,Kalyan Nagar, Post, Horamavu, Bengaluru, Karnataka 560113",
+      "addressFull": "Sure Smile Dental Care, 43, 1st Main,1st cross, Ashirvad colony, Hormavu main road Opp easy bazaar supermarket,Kalyan Nagar, Post, Horamavu, Bengaluru, Karnataka 560113",
+      "addressLine1": "43, 1st Main,1st cross, Ashirvad colony, Hormavu main road Opp easy bazaar supermarket,Kalyan Nagar",
+      "addressLine2": "Post",
+      "street": "43, 1st Main,1st cross, Ashirvad colony, Hormavu main road Opp easy bazaar supermarket,Kalyan Nagar, Post",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09740909934",
+        "display": "097409 09934",
+        "e164": "+91 97409 09934",
+        "tel": "tel:09740909934"
+      },
+      "website": "https://suresmiledental.in/",
+      "websiteDomain": "suresmiledental.in",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.7,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–8 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Sure Smile Dental Care (Owner)",
+        "owner_id": "115965176119095012376",
+        "owner_photo_url": "https://lh4.googleusercontent.com/-lp20WeMpnfQ/AAAAAAAAAAI/AAAAAAAAAAA/j5Bs4NDecWM/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJW_lPqSUXrjsRD7OMJWR48r8",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "The Dental Lounge",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 92070 69900",
+    "website": "http://www.thedentalloungeindia.com/",
+    "website_domain": "thedentalloungeindia.com",
+    "email": null,
+    "address": "412, 5th Main Rd, HRBR Layout 2nd Block, HRBR Layout, Kalyan Nagar, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.022721299999999,
+    "longitude": 77.6397733,
+    "rating": 4.9,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–8 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                20
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJW_lPqSUXrjsRD7OMJWR48r8",
+    "google_cid": "0x3bae1725a94ff95b:0xbff27864258cb30f",
+    "knowledge_graph_id": "/g/11c71gt9c4",
+    "owner_information": {
+      "owner_name": "The Dental Lounge (Owner)",
+      "owner_id": "105762486042250727452",
+      "owner_photo_url": "https://lh6.googleusercontent.com/-6QWywvVOPNc/AAAAAAAAAAI/AAAAAAAAAAA/mMi_D4pXCbI/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "The Dental Lounge",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 92070 69900",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "http://www.thedentalloungeindia.com/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.9,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "412, 5th Main Rd, HRBR Layout 2nd Block, HRBR Layout, Kalyan Nagar, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae1725a94ff95b:0xbff27864258cb30f",
+      "title": "The Dental Lounge",
+      "placeId": "ChIJW_lPqSUXrjsRD7OMJWR48r8",
+      "knowledgeGraphId": "/g/11c71gt9c4",
+      "latitude": 13.022721299999999,
+      "longitude": 77.6397733,
+      "addressFormatted": "412, 5th Main Rd, HRBR Layout 2nd Block, HRBR Layout, Kalyan Nagar, Bengaluru, Karnataka 560043",
+      "addressFull": "The Dental Lounge, 412, 5th Main Rd, HRBR Layout 2nd Block, HRBR Layout, Kalyan Nagar, Bengaluru, Karnataka 560043",
+      "addressLine1": "412, 5th Main Rd",
+      "addressLine2": "HRBR Layout 2nd Block, HRBR Layout, Kalyan Nagar",
+      "street": "412, 5th Main Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09207069900",
+        "display": "092070 69900",
+        "e164": "+91 92070 69900",
+        "tel": "tel:09207069900"
+      },
+      "website": "http://www.thedentalloungeindia.com/",
+      "websiteDomain": "thedentalloungeindia.com",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Dentist",
+        "Hospital"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.9,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–8 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "The Dental Lounge (Owner)",
+        "owner_id": "105762486042250727452",
+        "owner_photo_url": "https://lh6.googleusercontent.com/-6QWywvVOPNc/AAAAAAAAAAI/AAAAAAAAAAA/mMi_D4pXCbI/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJ7ajySDkXrjsRnRJ8p1716WQ",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Ebenezer Dental Care",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 63645 56225",
+    "website": "https://drkenneth.drxpro.in/",
+    "website_domain": "drkenneth.drxpro.in",
+    "email": null,
+    "address": "#142, Henur main road, Henur Bande, Bangalore, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.035837299999999,
+    "longitude": 77.6397221,
+    "rating": 4.8,
+    "review_count": null,
+    "opening_hours": null,
+    "place_id": "ChIJ7ajySDkXrjsRnRJ8p1716WQ",
+    "google_cid": "0x3bae173948f2a8ed:0x64e9f55ea77c129d",
+    "knowledge_graph_id": "/g/11bt_89f36",
+    "owner_information": {
+      "owner_name": "Ebenezer Dental Care (Owner)",
+      "owner_id": "110534217361914861886",
+      "owner_photo_url": "https://lh3.googleusercontent.com/-1R3n5PnmDwI/AAAAAAAAAAI/AAAAAAAAAAA/CkhdXbs1Eqg/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Ebenezer Dental Care",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 63645 56225",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://drkenneth.drxpro.in/",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 4.8,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "#142, Henur main road, Henur Bande, Bangalore, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae173948f2a8ed:0x64e9f55ea77c129d",
+      "title": "Ebenezer Dental Care",
+      "placeId": "ChIJ7ajySDkXrjsRnRJ8p1716WQ",
+      "knowledgeGraphId": "/g/11bt_89f36",
+      "latitude": 13.035837299999999,
+      "longitude": 77.6397221,
+      "addressFormatted": "#142, Henur main road, Henur Bande, Bangalore, Bengaluru, Karnataka 560043",
+      "addressFull": "Ebenezer Dental Care, #142, Henur main road, Henur Bande, Bangalore, Bengaluru, Karnataka 560043",
+      "addressLine1": "#142, Henur main road, Henur Bande, Bangalore",
+      "addressLine2": "Bengaluru, Karnataka 560043",
+      "street": "#142, Henur main road, Henur Bande, Bangalore",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "06364556225",
+        "display": "063645 56225",
+        "e164": "+91 63645 56225",
+        "tel": "tel:06364556225"
+      },
+      "website": "https://drkenneth.drxpro.in/",
+      "websiteDomain": "drkenneth.drxpro.in",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 4.8,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": null,
+      "openStatusFull": null,
+      "openingHours": null,
+      "ownerInformation": {
+        "owner_name": "Ebenezer Dental Care (Owner)",
+        "owner_id": "110534217361914861886",
+        "owner_photo_url": "https://lh3.googleusercontent.com/-1R3n5PnmDwI/AAAAAAAAAAI/AAAAAAAAAAA/CkhdXbs1Eqg/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJabvhakMRrjsRMnDkSqCPo0k",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "Apollo Dental Clinic, Horamavu - Best Dental Clinic in Bangalore - Invisalign, RCT, Implants, Crowns",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 97015 30983",
+    "website": "https://apollodental.in/bengaluru/horamavu/our-clinics/apollo-dental-clinic-in-horamavu",
+    "website_domain": "apollodental.in",
+    "email": null,
+    "address": "Sy No-101/1, Sheshadri Plaza, No.19 & 20, Horamavu Main Rd, Krishnarajapura Hobli, Horamavu, Bengaluru, Karnataka 560043",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560043",
+    "latitude": 13.0209535,
+    "longitude": 77.6572077,
+    "rating": 5,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "9 am–8 pm",
+            "structured": [
+              [
+                9
+              ],
+              [
+                20
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJabvhakMRrjsRMnDkSqCPo0k",
+    "google_cid": "0x3bae11436ae1bb69:0x49a38fa04ae47032",
+    "knowledge_graph_id": "/g/11z8nbsw4w",
+    "owner_information": {
+      "owner_name": "Apollo Dental Clinic, Horamavu - Best Dental Clinic in Bangalore - Invisalign, RCT, Implants, Crowns (Owner)",
+      "owner_id": "114579728277072755964",
+      "owner_photo_url": "https://lh5.googleusercontent.com/-Yuk15y0ec6Y/AAAAAAAAAAI/AAAAAAAAAAA/Hw_h55VIRLQ/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "Apollo Dental Clinic, Horamavu - Best Dental Clinic in Bangalore - Invisalign, RCT, Implants, Crowns",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 97015 30983",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "website",
+        "value": "https://apollodental.in/bengaluru/horamavu/our-clinics/apollo-dental-clinic-in-horamavu",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 5,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "Sy No-101/1, Sheshadri Plaza, No.19 & 20, Horamavu Main Rd, Krishnarajapura Hobli, Horamavu, Bengaluru, Karnataka 560043",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae11436ae1bb69:0x49a38fa04ae47032",
+      "title": "Apollo Dental Clinic, Horamavu - Best Dental Clinic in Bangalore - Invisalign, RCT, Implants, Crowns",
+      "placeId": "ChIJabvhakMRrjsRMnDkSqCPo0k",
+      "knowledgeGraphId": "/g/11z8nbsw4w",
+      "latitude": 13.0209535,
+      "longitude": 77.6572077,
+      "addressFormatted": "Sy No-101/1, Sheshadri Plaza, No.19 & 20, Horamavu Main Rd, Krishnarajapura Hobli, Horamavu, Bengaluru, Karnataka 560043",
+      "addressFull": "Sy No-101/1, Apollo Dental Clinic, Horamavu - Best Dental Clinic in Bangalore - Invisalign, RCT, Implants, Crowns, Sheshadri Plaza, No.19 & 20, Horamavu Main Rd, Krishnarajapura Hobli, Horamavu, Bengaluru, Karnataka 560043",
+      "addressLine1": "Sy No-101/1",
+      "addressLine2": "Sheshadri Plaza",
+      "street": "Sy No-101/1, Sheshadri Plaza, No.19 & 20, Horamavu Main Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560043",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "09701530983",
+        "display": "097015 30983",
+        "e164": "+91 97015 30983",
+        "tel": "tel:09701530983"
+      },
+      "website": "https://apollodental.in/bengaluru/horamavu/our-clinics/apollo-dental-clinic-in-horamavu",
+      "websiteDomain": "apollodental.in",
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Cosmetic dentist",
+        "Dental implants periodontist",
+        "Dentist",
+        "Emergency dental service",
+        "Endodontist",
+        "Oral and maxillofacial surgeon",
+        "Oral surgeon",
+        "Orthodontist",
+        "Pediatric dentist"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 5,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 9 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "9 am–8 pm",
+              "structured": [
+                [
+                  9
+                ],
+                [
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "Apollo Dental Clinic, Horamavu - Best Dental Clinic in Bangalore - Invisalign, RCT, Implants, Crowns (Owner)",
+        "owner_id": "114579728277072755964",
+        "owner_photo_url": "https://lh5.googleusercontent.com/-Yuk15y0ec6Y/AAAAAAAAAAI/AAAAAAAAAAA/Hw_h55VIRLQ/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  },
+  {
+    "lead_id": "ChIJvRxQdocRrjsRzbQwFodcVNY",
+    "source": "google_maps",
+    "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+    "business_name": "CARING FOR SMILES",
+    "business_category": "Dental clinic",
+    "description": null,
+    "phone": "+91 82966 45544",
+    "website": null,
+    "website_domain": null,
+    "email": null,
+    "address": "5th cross, Pooja Garden Main Rd, Kanaka Nagar, K Channasandra, Bengaluru, Karnataka 560113",
+    "city": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "country": "IN",
+    "postcode": "560113",
+    "latitude": 13.0388662,
+    "longitude": 77.67986359999999,
+    "rating": 5,
+    "review_count": null,
+    "opening_hours": [
+      {
+        "day_name": "Wednesday",
+        "day_index": 3,
+        "periods": [
+          {
+            "display": "10 am–2 pm",
+            "structured": [
+              [
+                10
+              ],
+              [
+                14
+              ]
+            ]
+          },
+          {
+            "display": "5–9 pm",
+            "structured": [
+              [
+                17
+              ],
+              [
+                21
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "place_id": "ChIJvRxQdocRrjsRzbQwFodcVNY",
+    "google_cid": "0x3bae118776501cbd:0xd6545c871630b4cd",
+    "knowledge_graph_id": "/g/11ml39y1pz",
+    "owner_information": {
+      "owner_name": "CARING FOR SMILES (Owner)",
+      "owner_id": "116038188565816462609",
+      "owner_photo_url": "https://lh4.googleusercontent.com/-90oBU6aTIJk/AAAAAAAAAAI/AAAAAAAAAAA/ssGhmvfbpGc/s44-p-k-no-ns-nd/photo.jpg"
+    },
+    "social_links": [],
+    "evidence": [],
+    "provenance": [
+      {
+        "field": "business_name",
+        "value": "CARING FOR SMILES",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "phone",
+        "value": "+91 82966 45544",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "rating",
+        "value": 5,
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      },
+      {
+        "field": "address",
+        "value": "5th cross, Pooja Garden Main Rd, Kanaka Nagar, K Channasandra, Bengaluru, Karnataka 560113",
+        "source": "google_maps",
+        "source_url": "https://www.google.com/maps/search/dentists%20Bangalore",
+        "observed_at": "2026-09-01T22:13:10.455Z"
+      }
+    ],
+    "raw_source": {
+      "cid": "0x3bae118776501cbd:0xd6545c871630b4cd",
+      "title": "CARING FOR SMILES",
+      "placeId": "ChIJvRxQdocRrjsRzbQwFodcVNY",
+      "knowledgeGraphId": "/g/11ml39y1pz",
+      "latitude": 13.0388662,
+      "longitude": 77.67986359999999,
+      "addressFormatted": "5th cross, Pooja Garden Main Rd, Kanaka Nagar, K Channasandra, Bengaluru, Karnataka 560113",
+      "addressFull": "CARING FOR SMILES, 5th cross, Pooja Garden Main Rd, Kanaka Nagar, K Channasandra, Bengaluru, Karnataka 560113",
+      "addressLine1": "5th cross, Pooja Garden Main Rd",
+      "addressLine2": "Kanaka Nagar, K Channasandra",
+      "street": "5th cross, Pooja Garden Main Rd",
+      "city": "Bengaluru, Karnataka",
+      "countryCode": "IN",
+      "postcode": "560113",
+      "province": "Karnataka",
+      "phone": {
+        "digits": "08296645544",
+        "display": "082966 45544",
+        "e164": "+91 82966 45544",
+        "tel": "tel:08296645544"
+      },
+      "website": null,
+      "websiteDomain": null,
+      "reservationUrl": null,
+      "categoryNames": [
+        "Dental clinic",
+        "Cosmetic dentist",
+        "Endodontist",
+        "Oral and maxillofacial surgeon"
+      ],
+      "primaryCategory": "Dental clinic",
+      "categoryCodes": null,
+      "ratingDecimal": 5,
+      "reviewsCount": null,
+      "reviewsText": null,
+      "priceRangeText": null,
+      "openStatusShort": "Closed",
+      "openStatusFull": "Closed · Opens 10 am",
+      "openingHours": [
+        {
+          "day_name": "Wednesday",
+          "day_index": 3,
+          "periods": [
+            {
+              "display": "10 am–2 pm",
+              "structured": [
+                [
+                  10
+                ],
+                [
+                  14
+                ]
+              ]
+            },
+            {
+              "display": "5–9 pm",
+              "structured": [
+                [
+                  17
+                ],
+                [
+                  21
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerInformation": {
+        "owner_name": "CARING FOR SMILES (Owner)",
+        "owner_id": "116038188565816462609",
+        "owner_photo_url": "https://lh4.googleusercontent.com/-90oBU6aTIJk/AAAAAAAAAAI/AAAAAAAAAAA/ssGhmvfbpGc/s44-p-k-no-ns-nd/photo.jpg"
+      },
+      "primaryPhotoUrl": null
+    },
+    "discovered_at": "2026-09-01T22:13:10.455Z",
+    "updated_at": "2026-09-01T22:13:10.455Z",
+    "needs": [
+      {
+        "service": "AI Appointment Automation",
+        "confidence": 0.6000000000000001,
+        "why": [
+          "Business has no website listed on public profiles"
+        ],
+        "angle": "Looks like you handle a high volume of inquiries. Automating intake and follow-ups could reduce manual front-desk workload."
+      }
+    ],
+    "score": {
+      "lead_score": 20,
+      "icp_score": 20,
+      "intent_score": 25,
+      "confidence": 0.76,
+      "reasons": [
+        "Lead has at least one contact path",
+        "Lead includes raw source provenance"
+      ]
+    }
+  }
+]

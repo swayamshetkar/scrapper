@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lead Discovery Platform</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 2rem; }
+    .container { max-width: 800px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    h1 { margin-top: 0; color: #2c3e50; }
+    .form-group { margin-bottom: 1.5rem; }
+    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    input[type="text"] { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    button { background-color: #3498db; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; font-weight: 600; }
+    button:hover { background-color: #2980b9; }
+    button:disabled { background-color: #95a5a6; cursor: not-allowed; }
+    .results { margin-top: 2rem; display: none; }
+    .downloads a { display: inline-block; margin-right: 1rem; color: #3498db; text-decoration: none; font-weight: bold; }
+    .downloads a:hover { text-decoration: underline; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #eee; }
+    th { background-color: #f8f9fa; }
+    .need-badge { background-color: #e74c3c; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; }
+    #loader { display: none; margin-top: 1rem; font-weight: bold; color: #e67e22; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Lead Discovery</h1>
+    <p>Run a one-time scrape to find businesses and detect need signals.</p>
+    
+    <div class="form-group">
+      <label>Target Industries (comma separated)</label>
+      <input type="text" id="industries" placeholder="e.g. dentists, gyms, restaurants" value="dentists">
+    </div>
+    
+    <div class="form-group">
+      <label>Target Cities (comma separated)</label>
+      <input type="text" id="cities" placeholder="e.g. Bangalore, Mumbai" value="Bangalore">
+    </div>
+    
+    <div class="form-group">
+      <label>Service Being Sold</label>
+      <input type="text" id="service" placeholder="e.g. AI Appointment Automation" value="AI Appointment Automation">
+    </div>
+    
+    <button id="runBtn">Run Campaign</button>
+    <div id="loader">Scraping in progress... this may take a minute.</div>
+    
+    <div class="results" id="resultsBox">
+      <h2>Results</h2>
+      <p id="summaryText"></p>
+      <div class="downloads">
+        <a id="csvLink" href="#" target="_blank">Download CSV</a>
+        <a id="jsonLink" href="#" target="_blank">Download JSON</a>
+      </div>
+      
+      <h3>Top Leads Preview</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Business</th>
+            <th>Phone</th>
+            <th>Need Detected</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="previewTableBody">
+          <!-- Rows inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('runBtn').addEventListener('click', async () => {
+      const btn = document.getElementById('runBtn');
+      const loader = document.getElementById('loader');
+      const resultsBox = document.getElementById('resultsBox');
+      
+      const industries = document.getElementById('industries').value;
+      const cities = document.getElementById('cities').value;
+      const service = document.getElementById('service').value;
+      
+      if(!industries || !cities) return alert('Industries and Cities required');
+      
+      btn.disabled = true;
+      loader.style.display = 'block';
+      resultsBox.style.display = 'none';
+      
+      try {
+        const response = await fetch('/api/campaigns', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ industries, cities, service })
+        });
+        
+        const data = await response.json();
+        if(data.error) throw new Error(data.error);
+        
+        document.getElementById('summaryText').innerText = `Found ${data.leadsCount} leads (${data.failuresCount} failures).`;
+        document.getElementById('csvLink').href = data.downloadUrls.csv;
+        document.getElementById('jsonLink').href = data.downloadUrls.json;
+        
+        const tbody = document.getElementById('previewTableBody');
+        tbody.innerHTML = '';
+        data.preview.forEach(lead => {
+          const primaryNeed = lead.needs && lead.needs.length > 0 ? lead.needs[0].service : 'None';
+          const badge = primaryNeed !== 'None' ? `<span class="need-badge">${primaryNeed}</span>` : '-';
+          
+          tbody.innerHTML += `
+            <tr>
+              <td><strong>${lead.business_name}</strong></td>
+              <td>${lead.phone || '-'}</td>
+              <td>${badge}</td>
+              <td>${lead.score?.lead_score || 0}</td>
+            </tr>
+          `;
+        });
+        
+        resultsBox.style.display = 'block';
+      } catch (err) {
+        alert('Campaign failed: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        loader.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

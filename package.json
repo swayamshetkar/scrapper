@@ -1,0 +1,23 @@
+{
+  "name": "lead-discovery-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node apps/web/src/server.mjs",
+    "test": "node --test tests/unit/*.test.mjs",
+    "lint": "node --check packages/connectors/src/google-maps/parser/jspb.mjs",
+    "maps:demo": "node apps/worker/src/demo-google-maps-pipeline.mjs",
+    "maps:live": "node apps/worker/src/run-google-maps-live.mjs",
+    "campaign:live": "node apps/worker/src/run-campaign.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "optionalDependencies": {
+    "playwright": "latest"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
