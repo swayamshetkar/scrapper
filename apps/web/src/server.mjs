@@ -17,7 +17,7 @@ app.use('/exports', express.static(path.join(rootDir, 'exports')));
 // API Endpoint to run campaign
 app.post('/api/campaigns', async (req, res) => {
   try {
-    const { industries, cities, service } = req.body;
+    const { industries, cities, service, sources } = req.body;
     
     if (!industries || !cities) {
       return res.status(400).json({ error: 'Industries and cities are required' });
@@ -27,13 +27,14 @@ app.post('/api/campaigns', async (req, res) => {
       industries: industries.split(',').map(s => s.trim()),
       cities: cities.split(',').map(s => s.trim()),
       service: service || 'AI Appointment Automation',
+      sources: sources && sources.length ? sources : ['google_maps', 'instagram', 'linkedin'],
       searchTerms: []
     };
 
-    console.log(`[API] Starting campaign for ${industries} in ${cities}`);
+    console.log(`[API] Starting campaign for ${industries} in ${cities} on sources: ${campaignConfig.sources.join(', ')}`);
 
     const result = await executeCampaign(campaignConfig, {
-      delayMs: 2000, // Faster for web demo
+      delayMs: 2000,
       headed: false,
       exportDir: path.join(rootDir, 'exports'),
       logger: {
@@ -51,7 +52,7 @@ app.post('/api/campaigns', async (req, res) => {
         json: `/exports/${result.exports.json}`,
         csv: `/exports/${result.exports.csv}`
       },
-      preview: result.leads.slice(0, 10) // Send up to 10 leads for preview
+      preview: result.leads
     });
   } catch (error) {
     console.error(`[API Error]`, error);

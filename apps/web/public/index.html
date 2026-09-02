@@ -6,11 +6,13 @@
   <title>Lead Discovery Platform</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 2rem; }
-    .container { max-width: 800px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .container { max-width: 900px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
     h1 { margin-top: 0; color: #2c3e50; }
     .form-group { margin-bottom: 1.5rem; }
     label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
     input[type="text"] { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    .sources-group { display: flex; gap: 1.5rem; margin-top: 0.5rem; }
+    .sources-group label { font-weight: normal; cursor: pointer; display: flex; align-items: center; gap: 0.4rem; }
     button { background-color: #3498db; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; font-weight: 600; }
     button:hover { background-color: #2980b9; }
     button:disabled { background-color: #95a5a6; cursor: not-allowed; }
@@ -21,13 +23,17 @@
     th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #eee; }
     th { background-color: #f8f9fa; }
     .need-badge { background-color: #e74c3c; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; }
+    .source-badge { display: inline-block; padding: 0.2rem 0.45rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: capitalize; }
+    .source-google_maps { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
+    .source-instagram { background-color: #fce4ec; color: #c2185b; border: 1px solid #f8bbd0; }
+    .source-linkedin { background-color: #e3f2fd; color: #1565c0; border: 1px solid #bbdefb; }
     #loader { display: none; margin-top: 1rem; font-weight: bold; color: #e67e22; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>AI Lead Discovery</h1>
-    <p>Run a one-time scrape to find businesses and detect need signals.</p>
+    <p>Run multi-source discovery (Google Maps, Instagram, LinkedIn) to find businesses and detect need signals.</p>
     
     <div class="form-group">
       <label>Target Industries (comma separated)</label>
@@ -43,6 +49,15 @@
       <label>Service Being Sold</label>
       <input type="text" id="service" placeholder="e.g. AI Appointment Automation" value="AI Appointment Automation">
     </div>
+
+    <div class="form-group">
+      <label>Data Sources</label>
+      <div class="sources-group">
+        <label><input type="checkbox" id="srcMaps" value="google_maps" checked> Google Maps</label>
+        <label><input type="checkbox" id="srcInsta" value="instagram" checked> Instagram</label>
+        <label><input type="checkbox" id="srcLinkedin" value="linkedin" checked> LinkedIn</label>
+      </div>
+    </div>
     
     <button id="runBtn">Run Campaign</button>
     <div id="loader">Scraping in progress... this may take a minute.</div>
@@ -55,12 +70,13 @@
         <a id="jsonLink" href="#" target="_blank">Download JSON</a>
       </div>
       
-      <h3>Top Leads Preview</h3>
+      <h3>Processed Leads</h3>
       <table>
         <thead>
           <tr>
+            <th>Source</th>
             <th>Business</th>
-            <th>Phone</th>
+            <th>Contact / Link</th>
             <th>Need Detected</th>
             <th>Score</th>
           </tr>
@@ -81,8 +97,14 @@
       const industries = document.getElementById('industries').value;
       const cities = document.getElementById('cities').value;
       const service = document.getElementById('service').value;
-      
-      if(!industries || !cities) return alert('Industries and Cities required');
+
+      const sources = [];
+      if (document.getElementById('srcMaps').checked) sources.push('google_maps');
+      if (document.getElementById('srcInsta').checked) sources.push('instagram');
+      if (document.getElementById('srcLinkedin').checked) sources.push('linkedin');
+
+      if (!industries || !cities) return alert('Industries and Cities required');
+      if (sources.length === 0) return alert('Select at least one data source');
       
       btn.disabled = true;
       loader.style.display = 'block';
@@ -92,7 +114,7 @@
         const response = await fetch('/api/campaigns', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ industries, cities, service })
+          body: JSON.stringify({ industries, cities, service, sources })
         });
         
         const data = await response.json();
@@ -108,10 +130,21 @@
           const primaryNeed = lead.needs && lead.needs.length > 0 ? lead.needs[0].service : 'None';
           const badge = primaryNeed !== 'None' ? `<span class="need-badge">${primaryNeed}</span>` : '-';
           
+          let contactInfo = lead.phone || '-';
+          if (lead.website) {
+            contactInfo += ` <br><a href="${lead.website}" target="_blank" style="font-size:0.85rem;color:#3498db;">${lead.website_domain || 'Website'}</a>`;
+          } else if (lead.source_url) {
+            contactInfo += ` <br><a href="${lead.source_url}" target="_blank" style="font-size:0.85rem;color:#3498db;">View Profile</a>`;
+          }
+
+          const srcClass = `source-${lead.source || 'google_maps'}`;
+          const srcLabel = (lead.source || 'Maps').replace('_', ' ');
+
           tbody.innerHTML += `
             <tr>
-              <td><strong>${lead.business_name}</strong></td>
-              <td>${lead.phone || '-'}</td>
+              <td><span class="source-badge ${srcClass}">${srcLabel}</span></td>
+              <td><strong>${lead.business_name}</strong><br><small style="color:#666;">${lead.city || ''}</small></td>
+              <td>${contactInfo}</td>
               <td>${badge}</td>
               <td>${lead.score?.lead_score || 0}</td>
             </tr>

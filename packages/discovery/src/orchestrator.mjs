@@ -1,4 +1,6 @@
 import { GoogleMapsBrowserConnector } from '../../connectors/src/google-maps/connector/GoogleMapsBrowserConnector.mjs';
+import { InstagramPublicConnector } from '../../connectors/src/instagram/InstagramPublicConnector.mjs';
+import { LinkedInPublicConnector } from '../../connectors/src/linkedin/LinkedInPublicConnector.mjs';
 import { createPlaywrightPageSession } from '../../connectors/src/google-maps/browser/PlaywrightPageSession.mjs';
 import { buildDiscoveryQueries } from './query-builder/buildQueries.mjs';
 import { dedupeLeads } from './deduplication/dedupe.mjs';
@@ -28,24 +30,41 @@ export async function executeCampaign(campaignConfig, options = {}) {
 
   logger.info("Initializing connectors...");
   
-  // 1. Run Scrape Sources
-  const connector = new GoogleMapsBrowserConnector({
-    searchDelayMs: Number(delayMs),
-    pageSessionFactory: () => createPlaywrightPageSession({ headless: !headed })
-  });
+  // 1. Initialize all connectors
+  const connectors = {
+    google_maps_browser: new GoogleMapsBrowserConnector({
+      searchDelayMs: Number(delayMs),
+      pageSessionFactory: () => createPlaywrightPageSession({ headless: !headed })
+    }),
+    instagram_public: new InstagramPublicConnector({
+      delayMs: Number(delayMs),
+      pageSessionFactory: () => createPlaywrightPageSession({ headless: !headed })
+    }),
+    linkedin_public: new LinkedInPublicConnector({
+      delayMs: Number(delayMs),
+      pageSessionFactory: () => createPlaywrightPageSession({ headless: !headed })
+    })
+  };
 
   const jobs = buildDiscoveryQueries(campaignConfig);
   const rawResults = [];
   const failures = [];
 
   for (const job of jobs) {
+    const connector = connectors[job.connector];
+    if (!connector) {
+      logger.error(`Unknown connector: ${job.connector}`);
+      failures.push({ job, error: `Unknown connector: ${job.connector}` });
+      continue;
+    }
+
     try {
-      logger.info(`Searching Maps: ${job.query}`);
+      logger.info(`Searching ${job.source}: ${job.query}`);
       const results = await connector.search(job);
-      logger.info(`Found ${results.length} raw result(s) for ${job.query}`);
+      logger.info(`Found ${results.length} raw result(s) from ${job.source} for ${job.query}`);
       rawResults.push(...results);
     } catch (error) {
-      logger.error(`Error searching Maps for ${job.query}: ${error.message}`);
+      logger.error(`Error searching ${job.source} for ${job.query}: ${error.message}`);
       failures.push({ job, error: error instanceof Error ? error.message : String(error) });
     }
   }
@@ -54,11 +73,14 @@ export async function executeCampaign(campaignConfig, options = {}) {
   let leads = [];
   logger.info(`Normalizing ${rawResults.length} raw results...`);
   for (const result of rawResults) {
+    const connectorName = result.query?.connector || (result.source === 'instagram' ? 'instagram_public' : result.source === 'linkedin' ? 'linkedin_public' : 'google_maps_browser');
+    const connector = connectors[connectorName] || connectors.google_maps_browser;
     try {
       const rawProfile = await connector.extract(result);
       const lead = await connector.normalize(rawProfile, {
         sourceUrl: result.source_url,
-        city: result.query.city
+        city: result.query?.city,
+        industry: result.query?.industry
       });
       leads.push(lead);
     } catch (error) {

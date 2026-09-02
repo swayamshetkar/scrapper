@@ -14,8 +14,11 @@ export async function runCampaign(campaign, connectors) {
   }
   const normalized = [];
   for (const result of rawResults) {
-    const connector = connectors.google_maps_browser;
-    try { const rawProfile = await connector.extract(result); normalized.push(await connector.normalize(rawProfile, { sourceUrl: result.source_url, city: result.query.city })); }
+    const connector = connectors[result.query?.connector] || connectors.google_maps_browser;
+    try {
+      const rawProfile = await connector.extract(result);
+      normalized.push(await connector.normalize(rawProfile, { sourceUrl: result.source_url, city: result.query?.city, industry: result.query?.industry }));
+    }
     catch (error) { failures.push({ job: result.query, error: error instanceof Error ? error.message : String(error) }); }
   }
   const leads = dedupeLeads(normalized).map((lead) => ({ ...lead, score: scoreLead(lead, campaign) })).sort((a, b) => b.score.lead_score - a.score.lead_score);
