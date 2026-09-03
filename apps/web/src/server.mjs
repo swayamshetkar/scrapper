@@ -60,6 +60,19 @@ app.post('/api/campaigns', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.use((req, res) => {
+  // Catch-all for any undefined routes
+  res.status(404).json({ error: 'Endpoint not found' });
+});
+
+const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on http://localhost:${PORT}`);
+});
+app.use((err, req, res, next) => {
+  console.error('[Server Error]', err);
+  if (!res.headersSent) {
+    res.status(500).json({ error: err.message || 'Internal server error' });
+  } else {
+    res.end();
+  }
 });
